@@ -1,0 +1,14 @@
+{
+  "name": "self",
+  "version": "1.0.0",
+  "description": "this is to learn import command",
+  "main": "math.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dixita Mishra",
+  "license": "ISC",
+  "type": "module"
+ 
+
+}
