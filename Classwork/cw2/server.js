@@ -4,7 +4,7 @@ const server=http.createServer((req,res)=>{
     const url=req.url;
     if(method==='GET' && url==='/'){
         res.writeHead(200,{'Content-Type':'text/plain'});
-        res.end('Welcome to the homepage!');
+        res.end('hello');
     }
    else if(method=='GET' && url==='/users'){
     const users={user:["Dixita","Ayush","Diya"]};
